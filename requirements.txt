@@ -1,0 +1,5 @@
+# Python dependencies for the figure scripts (Experiment 2).
+# Experiments 1 and 3 are MATLAB-only.
+numpy>=1.24
+matplotlib>=3.7
+h5py>=3.8

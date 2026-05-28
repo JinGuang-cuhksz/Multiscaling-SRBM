@@ -1,0 +1,17 @@
+# Python
+__pycache__/
+*.pyc
+
+# MATLAB
+*.fig
+*.asv
+
+# Regenerated figure outputs (canonical copies live in figures/)
+exp2_distribution/outputs/
+exp1_mean_accuracy/results/
+
+# Regenerated MLMC products — the per-config inputs config_*.mat ARE committed;
+# these are rebuilt by aggregate / make_figure / generate_data on run.
+exp3_warmstart/results/data/all_results.mat
+exp3_warmstart/results/data/sec3_3_warmstart_3panel.*
+**/results/data/*_summary.csv
