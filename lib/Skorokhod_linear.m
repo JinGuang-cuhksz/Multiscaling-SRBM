@@ -1,3 +1,13 @@
+% -------------------------------------------------------------------------
+% THIRD-PARTY CODE — NOT covered by this repository's MIT license.
+%
+% Skorokhod reflection map, part of the multi-level Monte Carlo simulator of:
+%   J. Blanchet, X. Chen, N. Si, P. W. Glynn, "Efficient steady-state
+%   simulation of high-dimensional stochastic networks," Stochastic Systems
+%   11 (2021) 174-192.
+% Obtained from the authors and redistributed here with their permission.
+% Copyright (c) the original authors. All rights reserved.
+% -------------------------------------------------------------------------
 function[Y]=Skorokhod_linear(dim,X,R)
 %X,Y are column vectors
 Y=X;

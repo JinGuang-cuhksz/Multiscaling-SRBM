@@ -1,3 +1,13 @@
+% -------------------------------------------------------------------------
+% THIRD-PARTY CODE — NOT covered by this repository's MIT license.
+%
+% Multi-level Monte Carlo simulator from:
+%   J. Blanchet, X. Chen, N. Si, P. W. Glynn, "Efficient steady-state
+%   simulation of high-dimensional stochastic networks," Stochastic Systems
+%   11 (2021) 174-192.
+% Obtained from the authors and redistributed here with their permission.
+% Copyright (c) the original authors. All rights reserved.
+% -------------------------------------------------------------------------
 function [result] = MLMC_RBM_Trial_Mem(M, drift, C, n, dim, weights, y0, R, T)
     % Memory-batched MLMC single-path simulator for an SRBM. The fine/coarse
     % Euler grids are advanced in batches to bound peak memory.

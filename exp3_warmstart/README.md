@@ -37,6 +37,10 @@ Three initial distributions (independent exponentials with the given means):
 The shared MLMC engine `MLMC_RBM_Trial_Mem.m` and the Skorokhod map
 `Skorokhod_linear.m` live in `../lib/`.
 
+> Note: `MLMC_RBM_Trial_Mem.m` and `Skorokhod_linear.m` are third-party code
+> (Blanchet et al. 2021), redistributed with permission and not covered by the
+> MIT license — see the repository `NOTICE` and top-level README.
+
 ## MLMC hyperparameter grid
 
 `generate_data.m` runs the flat grid `gamma = 0.2`, `T in {5000, 100000}`,

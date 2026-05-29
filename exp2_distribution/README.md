@@ -38,6 +38,10 @@ The shared MLMC engine `MLMC_RBM_Trial_Mem.m`, the Skorokhod map
 live in `../lib/`. The multi-scaling and skew-symmetric coordinate means are
 hard-coded in the Python script (`MULTI_SCALING_BY_SIGMA`, `M_SKEW`).
 
+> Note: `MLMC_RBM_Trial_Mem.m` and `Skorokhod_linear.m` are third-party code
+> (Blanchet et al. 2021), redistributed with permission and not covered by the
+> MIT license — see the repository `NOTICE` and top-level README.
+
 ## Reproduce
 
 The MLMC reference data is bundled, so the figure regenerates directly:

@@ -45,10 +45,22 @@ publication/
 | file | used by | role |
 |---|---|---|
 | `rbm_moments.m`        | exp1 | Exact stationary moments of a 2D SRBM (Foddy 1984 formulas). |
-| `Skorokhod_linear.m`   | exp2, exp3 | One-step Skorokhod reflection map. |
-| `MLMC_RBM_Trial_Mem.m` | exp2, exp3 | Memory-batched MLMC single-path simulator for the SRBM. |
+| `Skorokhod_linear.m`   | exp2, exp3 | Skorokhod reflection map. **Third-party — Blanchet et al. (2021); see [Third-party code](#third-party-code).** |
+| `MLMC_RBM_Trial_Mem.m` | exp2, exp3 | Multi-level Monte Carlo simulator. **Third-party — Blanchet et al. (2021); see [Third-party code](#third-party-code).** |
 | `hypoexp_ccdf.m`       | exp2 | CCDF/PDF of a sum of independent exponentials (phase-type). |
 | `legend_first_lines.m` | exp1 | Plotting helper. |
+
+## Third-party code
+
+The multi-level Monte Carlo simulator — `lib/MLMC_RBM_Trial_Mem.m` and
+`lib/Skorokhod_linear.m` — is **not** part of this work. It is the code of
+Blanchet et al. (2021), obtained from the authors and redistributed here with
+their permission. Copyright remains with the original authors; these two files
+are **not** covered by this repository's MIT license (see [`NOTICE`](NOTICE)).
+
+> J. Blanchet, X. Chen, N. Si, P. W. Glynn, *Efficient steady-state simulation
+> of high-dimensional stochastic networks*, Stochastic Systems 11 (2021)
+> 174–192.
 
 ## Quick start (regenerate figures from bundled data)
 

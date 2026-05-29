@@ -1,0 +1,20 @@
+Third-party code
+================
+
+The MIT license in LICENSE covers the original code in this repository, with
+the following exception.
+
+The multi-level Monte Carlo simulator is the work of Blanchet, Chen, Si, and
+Glynn, and is NOT covered by the MIT license:
+
+    lib/MLMC_RBM_Trial_Mem.m
+    lib/Skorokhod_linear.m
+
+These files were obtained from the authors and are redistributed here with
+their permission. Copyright remains with the original authors; all rights
+reserved.
+
+Reference:
+    J. Blanchet, X. Chen, N. Si, P. W. Glynn, "Efficient steady-state
+    simulation of high-dimensional stochastic networks," Stochastic Systems
+    11 (2021) 174-192.
